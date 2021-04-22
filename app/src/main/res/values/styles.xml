@@ -1,0 +1,23 @@
+<resources>
+    <style name="MainActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/top_bar_background</item>
+        <item name="background">@color/top_bar_background</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:actionBarStyle">@style/MainActionBar</item>
+        <item name="actionBarStyle">@style/MainActionBar</item>
+    </style>
+
+    <declare-styleable name="ShimmerView">
+        <attr name="shimmerColor" format="reference|color" />
+        <attr name="shimmerAlpha" format="float" />
+    </declare-styleable>
+
+</resources>

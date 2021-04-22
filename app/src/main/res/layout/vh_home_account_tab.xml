@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pl.duch.dybuk87.banksample.components.account.tab.AccountTabWidget
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/account_tab_widget"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />

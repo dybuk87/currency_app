@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Bank Sample</string>
+    <string name="home">Home</string>
+    <string name="exchange">Exchange</string>
+    <string name="transfer">Transfer</string>
+
+    <string name="font_semibold">proximanova-regular-webfont.ttf</string>
+    <string name="font_regular">proximanova-regular-webfont.ttf</string>
+    <string name="font_bold">proximanova-bold-webfont.ttf</string>
+    <string name="font_light">proximanova-light-webfont.ttf</string>
+
+    <string name="country_flags">Flag icons https://www.flaticon.com/authors/freepik</string>
+    <string name="currency_cad">Canadian dollar</string>
+    <string name="currency_hkd">Hong Kong dollar</string>
+    <string name="currency_dkk">Danish krone</string>
+    <string name="currency_huf">Hungarian forint</string>
+    <string name="currency_czk">Czech koruna</string>
+    <string name="currency_aud">Australian dollar</string>
+    <string name="currency_ron">Romanian leu</string>
+    <string name="currency_sek">Swedish krona</string>
+    <string name="currency_rub">Russian ruble</string>
+    <string name="currency_hrk">Croatian kuna</string>
+    <string name="currency_jpy">Japanese yen</string>
+    <string name="currency_thb">Thai baht</string>
+    <string name="currency_chf">Swiss franc</string>
+    <string name="currency_pln">Polish złoty</string>
+    <string name="currency_bgn">Bulgarian lev</string>
+    <string name="currency_try">Turkish lira</string>
+    <string name="currency_nok">Norwegian krone</string>
+    <string name="currency_usd">American dollar</string>
+    <string name="currency_mxn">Mexican peso</string>
+    <string name="currency_ils">Israeli Shekel</string>
+    <string name="currency_gbp">British Pound</string>
+    <string name="currency_eu">Euro</string>
+    <string name="last_operations">Last operations</string>
+    <string name="card_payment_desc_details">Card payment</string>
+    <string name="money_exchange_desc_details">Money exchange</string>
+    <string name="blik_payment_desc_details">Blik payment</string>
+    <string name="money_transfer_desc_details">Money transfer</string>
+    <string name="money_withdraw_desc_details">Money withdraw</string>
+    <string name="empty_content">Content not found</string>
+    <string name="new_history_events">New history events: %1$d</string>
+</resources>

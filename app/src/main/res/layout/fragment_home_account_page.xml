@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@color/content_background"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <pl.duch.dybuk87.banksample.components.account.widget.HomeAccountWidget
+        android:id="@+id/home_account_widget"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/home_account_history_title"
+        app:layout_constraintTop_toBottomOf="@id/home_account_widget"
+        android:text="@string/last_operations"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textColor="@color/content_text"
+        android:fontFamily="@font/barlow_condensed_bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/home_account_history_title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/home_account_history"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            tools:listitem="@layout/widget_account_history_record" />
+
+        <TextView
+            android:id="@+id/home_account_history_new_events"
+            android:visibility="gone"
+            android:background="@color/content_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/content_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            tools:text="New history events: 5"
+            android:padding="8dp"
+            tools:background="#F0F"
+            />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

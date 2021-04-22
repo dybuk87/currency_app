@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <pl.duch.dybuk87.banksample.components.account.balance.AccountBalanceWidget
+        android:id="@+id/account_balance_widget"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <pl.duch.dybuk87.banksample.components.account.action.AccountActionButtonWidget
+        android:id="@+id/account_balance_action_1"
+        app:layout_constraintTop_toBottomOf="@+id/account_balance_widget"
+        app:layout_constraintBottom_toBottomOf="@+id/account_balance_widget"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/account_balance_action_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <pl.duch.dybuk87.banksample.components.account.action.AccountActionButtonWidget
+        android:id="@+id/account_balance_action_2"
+        app:layout_constraintTop_toBottomOf="@+id/account_balance_widget"
+        app:layout_constraintBottom_toBottomOf="@+id/account_balance_widget"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <pl.duch.dybuk87.banksample.components.account.action.AccountActionButtonWidget
+        android:id="@+id/account_balance_action_3"
+        app:layout_constraintTop_toBottomOf="@+id/account_balance_widget"
+        app:layout_constraintBottom_toBottomOf="@+id/account_balance_widget"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/account_balance_action_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

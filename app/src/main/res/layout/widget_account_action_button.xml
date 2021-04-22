@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:visibility="gone"
+        android:id="@+id/widget_account_action_button_blik"
+        android:src="@drawable/blik"
+        android:layout_width="48dp"
+        android:layout_height="48dp" />
+
+    <pl.duch.dybuk87.banksample.components.img.CircleImageView
+        android:id="@+id/widget_account_action_button_image"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:padding="12dp"
+        android:src="@drawable/ic_savings_black_48dp"
+        android:tint="@color/content_text">
+
+    </pl.duch.dybuk87.banksample.components.img.CircleImageView>
+
+    <TextView
+        android:visibility="gone"
+        android:textColor="@color/content_text"
+        android:id="@+id/widget_account_action_button_desc"
+        android:fontFamily="@font/barlow_condensed_bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

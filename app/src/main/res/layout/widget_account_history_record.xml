@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    tools:background="@color/content_detail">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/account_history_record_image"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="8dp"
+        tools:src="@drawable/blik" />
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/account_history_record_desc"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/barlow_condensed_light"
+            android:textColor="@color/content_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            tools:text="Artur Duch" />
+
+        <TextView
+            android:id="@+id/account_history_record_desc_details"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/barlow_condensed_light"
+            android:textColor="@color/content_text"
+            android:alpha="0.6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            tools:text="Money transfer" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/account_history_record_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="8dp"
+        android:fontFamily="@font/barlow_condensed_bold"
+        android:gravity="end"
+        android:textColor="@color/content_text"
+        android:textSize="22sp"
+        tools:text="123.43 PLN" />
+
+</LinearLayout>

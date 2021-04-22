@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--
+  08605f-177e89-598381-8e936d-a2ad59-4f345a-5d4e6d-c9f299-090c9b-fbfff1
+   606c38-283618-fefae0-dda15e-bc6c25
+
+   !-->
+
+    <color name="top_bar_background">#353535</color>
+    <color name="top_bar_text">#ffffff</color>
+    <color name="top_bar_tint">#8A897C</color>
+
+    <color name="content_background">#1c1c1c</color>
+    <color name="content_text">#ffffff</color>
+    <color name="content_detail">#8A897C</color>
+    <color name="content_tint">#ffffff</color>
+
+    
+    <color name="colorPrimary">#606c38</color>
+    <color name="colorPrimaryDark">#353535</color>
+    <color name="colorAccent">#fefae0</color>
+</resources>

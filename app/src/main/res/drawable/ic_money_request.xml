@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_chat_bubble_outline_black_48dp" />
+    <item>
+        <inset
+            android:insetLeft="8dp"
+            android:insetRight="8dp"
+            android:insetTop="2dp"
+            android:insetBottom="10dp"
+            android:drawable="@drawable/ic_swap_horiz_black_24dp" />
+    </item>
+</layer-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pl.duch.dybuk87.banksample.components.account.history.AccountHistoryRecordWidget
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/account_history_widget"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
